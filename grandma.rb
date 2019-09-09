@@ -13,9 +13,9 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(phrase)
-  if(phrase.capitalized)
+  if(phrase.capitalize?)
     return "NO, NOT SINCE 1938!"
-  elsif(!(phrase.capitalized))
+  elsif(!(phrase.capitalize?))
     return "HUH?! SPEAK UP, SONNY!"
   elsif(phrase == "I LOVE YOU GRANDMA!")
     return "I LOVE YOU TOO PUMPKIN!"
