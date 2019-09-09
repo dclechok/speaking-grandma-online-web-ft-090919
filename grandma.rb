@@ -14,5 +14,7 @@
 
 def speak_to_grandma(phrase)
   if(phrase.capitalized?)
-    return "HUH?! S"
+    
+    
+    return "HUH?! SPEAK UP, SONNY!"
 end
